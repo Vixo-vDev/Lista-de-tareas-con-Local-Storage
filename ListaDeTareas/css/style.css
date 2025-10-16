@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+main {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.saludo {
+    text-align: center;
+    margin-top: 0;
+}
+
+.input-container {
+    display: flex;
+}
+
+.nombre {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.btnGuardar {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.tarea-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.tarea-item input {
+    margin-right: 10px;
+}
+
+.tarea-item label.marcada {
+    text-decoration: line-through;
+    color: #999;
+}
